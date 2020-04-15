@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="" id="0fd9f8e6-bc60-471f-8751-1fad1947ff95" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="0fd9f8e6-bc60-471f-8751-1fad1947ff95fileName"/>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="e6c7dfa7-507c-440f-970a-35e53871d625" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="9e03e6f7-0ef9-4a99-ad42-0e1d6966a343" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://google.com</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
